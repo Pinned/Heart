@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="heartColor" format="color|reference"/>
+
+    <declare-styleable name="HeartView">
+        <attr name="heartColor"/>
+    </declare-styleable>
+
+    <declare-styleable name="HeartBeatView">
+        <attr name="scaleFactor" format="float"/>
+        <attr name="duration" format="integer"/>
+        <attr name="heartColor"/>
+    </declare-styleable>
+
+</resources>

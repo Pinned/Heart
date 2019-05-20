@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bead_heart_width">50dp</dimen>
+    <dimen name="bead_heart_height">41dp</dimen>
+
+    <dimen name="heart_size_width">30dp</dimen>
+    <dimen name="heart_size_height">25dp</dimen>
+</resources>
