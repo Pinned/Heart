@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7569B2">
+
+    <TextView
+        android:id="@+id/tv_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <com.lihang.smartloadview.SmartLoadingView
+        android:id="@+id/loading_view"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        app:cornerRaius="50dp"
+        app:textColor="#fff"
+        app:normalBg="#AF400A"
+        app:textStr="开启" />
+</RelativeLayout>
